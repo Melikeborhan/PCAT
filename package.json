@@ -4,7 +4,8 @@
   "description": "PCAT Photo App",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "photo",
@@ -14,6 +15,11 @@
   "author": "Melike Borhan",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "*"
+    "nodemon": "^3.0.3",
+    "prettier": "3.2.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "serve-static": "^1.15.0"
   }
 }
